@@ -99,7 +99,8 @@ function identificaVogalEConsoante () {
     let letra;
 
     letra = prompt("Digite uma letra para vermos se ela é vogal ou consoante:")
-
+    letra = letra.toLowerCase();
+    
     if (letra=="a") {
         alert("Isso é uma vogal")
     } 
